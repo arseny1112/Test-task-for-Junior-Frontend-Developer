@@ -1,4 +1,3 @@
-// Функция, как требует задание
 export function process(store, order) {
   const stock = new Map();
   for (const { size, quantity } of store) {
